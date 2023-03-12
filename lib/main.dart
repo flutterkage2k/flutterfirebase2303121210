@@ -1,5 +1,6 @@
 import 'package:carousel_pro/carousel_pro.dart';
 import 'package:flutter/material.dart';
+import 'package:flutterfirebase2303121210/componets/horizontal_listview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -140,6 +141,7 @@ class _HomePageState extends State<HomePage> {
       body: ListView(
         children: [
           image_carousel,
+          HorizontalList(),
         ],
       ),
     );
